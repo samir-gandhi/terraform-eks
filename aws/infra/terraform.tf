@@ -8,7 +8,7 @@ terraform {
   cloud {
     organization = "samir-playground"
     workspaces {
-      name = "terraform-eks"
+      name = "terraform-aws-infra"
     }
   }
 }

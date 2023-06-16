@@ -16,16 +16,6 @@ variable "tfc_organization_name" {
   default = "samir-playground"
 }
 
-variable "tfc_project_name" {
-  type        = string
-  description = "The project under which a workspace will be created"
-}
-
-variable "tfc_workspace_name" {
-  type        = string
-  description = "The name of the workspace that you'd like to create and connect to AWS"
-}
-
 variable "aws_region" {
   type        = string
   default     = "us-east-2"
